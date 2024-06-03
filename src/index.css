@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #3b6ae0;
+  --color-secondary: #4a2985;
+  --color-third: #ffffff;
+  --color-offwhite: #d9d9d9;
+  --color-title: #0d0d0d;
+  --color-description: #413e3e;
+  --color-error: #bd1010;
+  --color-edit: #2b4bca;
+  --color-text: #1c2536;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  margin: 0;
+  background-color: #f1f9ff;
+  color: var(--color-text);
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("./assets/font/Cairo-VariableFont_slnt,wght.ttf");
+}
+
+html {
+  font-family: 'Cairo', sans-serif !important
+}
+
+* {
+  font-family: 'Cairo', sans-serif !important
+}
+
+.show-description {
+  @apply font-description text-description text-descriptionColor text-wrap whitespace-break-spaces leading-8;
+}
