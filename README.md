@@ -1,9 +1,9 @@
-# IR FrontEnd project
+# IR Front-end project
 
-Created using React.js, vite and typescript
+Created using React.js, Vite and Typescript
 
 ## To clone and run
 
-- git clone <https://github.com/Philip-Droubi/ir-frontend.git>
-- npm install
-- npm run dev
+- `git clone <https://github.com/Philip-Droubi/ir-frontend.git>`
+- `npm install`
+- `npm run dev`
